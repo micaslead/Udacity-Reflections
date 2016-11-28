@@ -1,4 +1,4 @@
-lesson_2_reflections.txt
+﻿lesson_2_reflections.txt
 
 What happens when you initialize a repository? Why do you need to do it?
 
@@ -7,8 +7,16 @@ a .git folder is created so git can track commits & associated changes
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+working directory isn't tracked yet (new stuff)
+staging area .. almost ready for tracking
+repository ... changes should be good ... ready for testing
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+git diff --staged
+will tell you what you added/removed in the staged file(s) compared to the "good" repository files
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
