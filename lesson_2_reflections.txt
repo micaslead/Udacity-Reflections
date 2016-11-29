@@ -21,11 +21,34 @@ will tell you what you added/removed in the staged file(s) compared to the "good
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+when you take a different path ... major modification, or bug fix, or other
+when you want to make changes and don't want to break a working prototype
+
 How do the diagrams help you visualize the branch structure?
+
+easier to see when you have an "unreachable commit" and need to make a new branch
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+It moves changes from both branches into the files ... but conflicts can be problimatic
+i.e.  ... when someone removed some lines, and other did not ... merge removes lines
+	potential issue was that other needed those lines
+
+i.e.  ... when both change the same lines ... issues to be resolved
+
+i.e.  ... tracking down the issues (including new lines, etc) can be frustrating
+
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+manual merges are slow and tedious
+automatic merges in Git show issues and then let u determine how to fix
+
+
+
+
 
