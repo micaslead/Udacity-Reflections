@@ -1,29 +1,51 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+when sharing with others ... 
+either working a project together
+or putting work in a place another tool can pull from to use the work/script/etc
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+When your files are a "work in progress", you don't want the "shared version"
+to be "used" by others
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Use forks to do "use" a set of base code and do something new (not owned/used by original)
+Use clone to make a local copy so you can update via your own computer
+Use branch to try something new out (i.e. not break a working copy)
+
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+Makes it possible to merge changes others made to the shared remote
+with your own on your own computer for testing before pushing your changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+w/o git & github, collaboration would need to be much more defined ... i.e. who is working on what when ... so people don't step on each other's toes ...  and HAVE to keep regular backups (father, grandfather, great-grandfather).
+
+That is how we have done it for a long time ... not hard with a small number of collaborators, but difficult with larger numbers.
+
+Figuring out what changes did which modifications manual way only works as well as the developers document in-line which varies widely.
+
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+
+When trying something big out or when multiple people are making changes so you know your will work with theirs before the shared master is updated
+
+
+
+
+
+
+
